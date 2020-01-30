@@ -1,0 +1,17 @@
+{
+  "name": "@mono/packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "davidroman0O",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:frontend": "yarn --cwd packages/frontend start"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2"
+  }
+}
